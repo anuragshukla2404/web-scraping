@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.shopclues.com/search?q=Smartphone"
+url = ""
 res = requests.get(url)
 html_data = res.content
 parsed_data = BeautifulSoup(html_data, "html.parser")
